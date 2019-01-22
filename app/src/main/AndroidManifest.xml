@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hftl.a66154823.navigation">
+    package="com.example.pvl">
+
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"
+        android:protectionLevel="normal" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +24,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SensorDetails"></activity>
+        <activity
+            android:name=".SensorActivity"
+            android:label="@string/title_activity_sensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SaveActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".ContactsActivity" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".SingleSensorActivity"></activity>
     </application>
 
 </manifest>

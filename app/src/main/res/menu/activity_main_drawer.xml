@@ -6,25 +6,32 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_sensors"
-            android:icon="@drawable/ic_menu_sensors"
-            android:title="Sensors" />
+            android:title="Sensoren" />
         <item
             android:id="@+id/nav_save"
-            android:icon="@drawable/ic_menu_save"
-            android:title="Save" />
+            android:title="Speicher" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_picture"
+            android:title="Bilder" />
         <item
-            android:id="@+id/nav_calendar"
-            android:icon="@drawable/ic_menu_calendar"
-            android:title="Calendar" />
+            android:id="@+id/nav_contact"
+            android:title="Kontakte" />
         <item
             android:id="@+id/nav_webview"
-            android:icon="@drawable/ic_menu_webview"
             android:title="WebView" />
     </group>
-
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
 
 </menu>
